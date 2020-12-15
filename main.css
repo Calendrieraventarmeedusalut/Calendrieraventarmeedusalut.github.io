@@ -83,20 +83,23 @@ html, body {
 	padding: 0;
 }
 
-h1 {
+.title {
 	font-family: 'Caveat', cursive;
 	color: white;
-	height: 3em;
-	/* background-color: #a50000; */
+	background-color: #a50000;
+	margin: 1.5em 0 3em 0;
 	display: flex;
-	padding: auto;
 	justify-content: center;
 	align-items: center;
 }
 
 
+.title > t {
+	font-size: 2em;
+}
+
 body {
-	background-image: url("./background.jpg");
+	background-image: url("./background2.jpg");
   /* background-position: center center; */
   background-repeat: no-repeat;
   background-attachment: fixed;
