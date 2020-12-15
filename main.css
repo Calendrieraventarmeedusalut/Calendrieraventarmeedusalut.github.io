@@ -86,9 +86,10 @@ html, body {
 h1 {
 	font-family: 'Caveat', cursive;
 	color: white;
-	height: 2em;
+	height: 3em;
 	/* background-color: #a50000; */
 	display: flex;
+	padding: auto;
 	justify-content: center;
 	align-items: center;
 }
@@ -111,7 +112,7 @@ main {
 }
 
 .container {
-	padding: 3em;
+	padding: 0 0 0 0;
 	/* border: 1px solid red; */
 	width: 100%;
 }
@@ -119,6 +120,7 @@ main {
 .logo {
 	width: 60px;
 	height: 60px;
+	padding-left: 20px;
 }
 
 .present {
