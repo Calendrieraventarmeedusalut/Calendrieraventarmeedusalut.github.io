@@ -213,7 +213,7 @@ main {
 @media only screen and (max-device-width : 410px) {
 body {
 	background-image: url("./iphonebg.jpg");
-	/* background-position: center center; */
+	background-position: center; 
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
