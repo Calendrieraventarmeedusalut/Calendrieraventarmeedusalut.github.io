@@ -79,8 +79,8 @@ html, body {
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	margin: 0;
-	padding: 0;
+	 margin: 0;
+	 padding: 0;
 }
 
 .title {
@@ -98,14 +98,6 @@ html, body {
 	font-size: 2em;
 }
 
-body {
-	background-image: url("./background2.jpg");
-  /* background-position: center center; */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: #464646;
-}
 
 main {
 	text-align: center;
@@ -206,7 +198,15 @@ main {
 @media only screen and (max-device-width : 992px) { 
 	.pc {
 		display: none;
-	};
+	}
+body {
+	background-image: url("./background2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: auto 100%;
+	background-color: #464646;
+}
 }
 
 /* on pc, you hide from smartphone */
@@ -215,4 +215,12 @@ main {
  	.mobile { 
 		 display: none;
 	}
+body {
+	background-image: url("./background2.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
 }
