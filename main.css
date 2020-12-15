@@ -87,7 +87,7 @@ h1 {
 	font-family: 'Caveat', cursive;
 	color: white;
 	margin: 1em 0 0 0;
-	background-color: #a50000;
+	/* background-color: #a50000; */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -95,7 +95,7 @@ h1 {
 
 
 body {
-	background-image: url("./background2.jpg");
+	background-image: url("./background.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -119,7 +119,6 @@ main {
 .logo {
 	width: 60px;
 	height: 60px;
-	padding: 11px;
 }
 
 .present {
