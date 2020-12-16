@@ -38,6 +38,22 @@ function toogle_video_on(id, display) {
             x.setAttribute("src", "https://www.youtube.com/embed/V77ZKMXKCQ4?autoplay=1");
         if (id == "16")
             x.setAttribute("src", "https://www.youtube.com/embed/WOQcvQVdmfY?autoplay=1");
+        if (id == "17")
+            x.setAttribute("src", "https://www.youtube.com/embed/TJT-k50MtUg?autoplay=1");
+        if (id == "18")
+            x.setAttribute("src", "https://www.youtube.com/embed/vT-UmYiPrmY?autoplay=1");
+        if (id == "19")
+            x.setAttribute("src", "https://www.youtube.com/embed/cQ3ubkrm6Bs?autoplay=1");
+        if (id == "20")
+            x.setAttribute("src", "https://www.youtube.com/embed/jO9Y1e7nz2M?autoplay=1");
+        if (id == "21")
+            x.setAttribute("src", "https://www.youtube.com/embed/lvDL6-xdoqE?autoplay=1");
+        if (id == "22")
+            x.setAttribute("src", "https://www.youtube.com/embed/izd6yRuF3X8?autoplay=1");
+        if (id == "23")
+            x.setAttribute("src", "https://www.youtube.com/embed/cEp5mA66RBg?autoplay=1");
+        if (id == "24")
+            x.setAttribute("src", "https://www.youtube.com/embed/IcmTp5vjfEw?autoplay=1");
         console.log(id);
         v.style.display = "flex";
     }
