@@ -49,7 +49,7 @@ function toogle_video_on(id, display) {
         if (id == "21")
             x.setAttribute("src", "https://www.youtube.com/embed/lvDL6-xdoqE?autoplay=1");
         if (id == "22")
-            x.setAttribute("src", "https://www.youtube.com/embed/izd6yRuF3X8?autoplay=1");
+            x.setAttribute("src", "https://www.youtube.com/embed/IcmTp5vjfEw?autoplay=1");
         if (id == "23")
             x.setAttribute("src", "https://www.youtube.com/embed/cEp5mA66RBg?autoplay=1");
         if (id == "24")
