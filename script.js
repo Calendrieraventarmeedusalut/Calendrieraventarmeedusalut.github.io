@@ -53,7 +53,7 @@ function toogle_video_on(id, display) {
         if (id == "23")
             x.setAttribute("src", "https://www.youtube.com/embed/MnyasGrciEM?autoplay=1");
         if (id == "24")
-            x.setAttribute("src", "https://www.youtube.com/embed/IcmTp5vjfEw?autoplay=1");
+            x.setAttribute("src", "https://www.youtube.com/embed/ttFcHgMJ54E?autoplay=1");
         console.log(id);
         v.style.display = "flex";
     }
